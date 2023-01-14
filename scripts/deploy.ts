@@ -19,6 +19,9 @@ async function main() {
     const zktreevote = await ZKTreeVote.deploy(TREE_LEVELS, mimcsponge.address, verifier.address, 4);
     console.log(`ZKTreeVote address: ${zktreevote.address}`)
 
+    // add the 2nd hardhat account as a validator
+    await zktreevote.registerValidator(signers[1].address)
+
     fs.writeFileSync("static/contracts.json", JSON.stringify({
         mimc: mimcsponge.address,
         verifier: verifier.address,
