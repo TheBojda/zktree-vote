@@ -13,6 +13,9 @@
           <button class="btn btn-info" @click="copyToClipboard">
             Copy to clipboard
           </button>
+          <button class="btn btn-danger" @click="resetCommitment">
+            Reset commitment
+          </button>
           <a href="#/" class="btn btn-primary">Back</a>
         </div>
       </div>
@@ -59,6 +62,11 @@ export default class VoterRegistration extends Vue {
   public copyToClipboard() {
     copyToClipboard(this.commitment.commitment);
     alert("Successfully copied to the clipboard");
+  }
+
+  public resetCommitment() {
+    localStorage.removeItem("zktree-vote-commitment");
+    this.init();
   }
 }
 </script>

@@ -10,6 +10,7 @@
             >Registration to vote</a
           >
           <a href="#/vote" class="btn btn-primary">Vote</a>
+          <a href="#/results" class="btn btn-primary">Results</a>
           <a
             href="https://medium.com/geekculture/how-to-create-an-anonymous-unhackable-voting-system-on-the-blockchain-ff6f932727b8"
             >Check my article</a

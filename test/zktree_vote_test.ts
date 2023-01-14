@@ -47,7 +47,7 @@ describe("ZKTree Smart contract test", () => {
         console.log(await zktreevote.getOptionCounter(1))
         console.log(await zktreevote.getOptionCounter(2))
         console.log(await zktreevote.getOptionCounter(3))
-        console.log(await +-zktreevote.getOptionCounter(4))
+        console.log(await zktreevote.getOptionCounter(4))
     });
 
 });
