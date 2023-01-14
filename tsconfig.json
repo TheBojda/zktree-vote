@@ -3,6 +3,7 @@
     "target": "es2020",
     "module": "commonjs",
     "esModuleInterop": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
   }

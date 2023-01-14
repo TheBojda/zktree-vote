@@ -6,3 +6,5 @@
 /typechain-types/
 /yarn.lock
 /package-lock.json
+/.parcel-cache/
+/dist/
