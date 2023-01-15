@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 import { mimcSpongecontract } from 'circomlibjs'
 import { ZKTreeVote } from "../typechain-types";
-import { generateCommitment, calculateMerkleRootAndZKProof } from 'zktree';
+import { generateCommitment, calculateMerkleRootAndZKProof } from 'zk-merkle-tree';
 
 const SEED = "mimcsponge";
 

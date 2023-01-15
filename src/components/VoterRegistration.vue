@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-facing-decorator";
-import { generateCommitment } from "zktree";
+import { generateCommitment } from "zk-merkle-tree";
 import QRCode from "qrcode";
 import copyToClipboard from "copy-to-clipboard";
 

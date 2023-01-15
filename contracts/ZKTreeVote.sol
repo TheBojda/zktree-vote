@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import "zktree/contracts/ZKTree.sol";
+import "zk-merkle-tree/contracts/ZKTree.sol";
 
 contract ZKTreeVote is ZKTree {
     address public owner;

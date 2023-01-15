@@ -61,7 +61,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-facing-decorator";
 import * as ethers from "ethers";
-import { calculateMerkleRootAndZKProof } from "zktree";
+import { calculateMerkleRootAndZKProof } from "zk-merkle-tree";
 
 // the default verifier is for 20 levels, for different number of levels, you need a new verifier circuit
 const TREE_LEVELS = 20;
