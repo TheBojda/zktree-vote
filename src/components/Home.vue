@@ -12,7 +12,7 @@
           <a href="#/vote" class="btn btn-primary">Vote</a>
           <a href="#/results" class="btn btn-primary">Results</a>
           <a
-            href="https://medium.com/geekculture/how-to-create-an-anonymous-unhackable-voting-system-on-the-blockchain-ff6f932727b8"
+            href="https://thebojda.medium.com/how-i-built-an-anonymous-voting-system-on-the-ethereum-blockchain-using-zero-knowledge-proof-d5ab286228fd"
             >Check my article</a
           >
         </div>
